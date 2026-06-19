@@ -1,0 +1,41 @@
+{
+  "training_rms": 0.05702263845921144,
+  "k_fitted": 0.00884019882785984,
+  "A_fitted": 2.2550863469217575,
+  "phase_fitted": 1.5002464856316298,
+  "n_train": 467,
+  "n_test": 36,
+  "crossings_predicted": [],
+  "test_crossings": [],
+  "optimized_linear": {
+    "a": 80.0,
+    "b": 10.0,
+    "test_mean_error": Infinity
+  },
+  "mapping_results": {
+    "linear: \u03b3 = a*Y + b": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    },
+    "linear: \u03b3 = 100*Y": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    },
+    "exponential: \u03b3 = exp(a*Y+b)-1 (a=4.6,b=2.6)": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    },
+    "vonMangoldt: \u03b3 = Y*log(1/Y)": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    },
+    "sqrt: \u03b3 = a*sqrt(Y)": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    },
+    "quadratic: \u03b3 = a*Y^2": {
+      "mean_error": Infinity,
+      "median_error": Infinity
+    }
+  }
+}

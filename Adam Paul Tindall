@@ -1,0 +1,14 @@
+/ModularResonance-AI 
+├── /code 
+│   ├── residue_analysis.py (Spark/Python scripts) 
+│   ├── fourier_zeta.py (FFT and zeta-zero matching) 
+│   └── omega_equation (Grok-DeepSeek hybrid models) 
+├── /data 
+│   ├── primes_1e6.csv (First 1 million primes) 
+│   └── zeta_zeros.csv (Imaginary parts from LMFDB) 
+├── /paper 
+│   ├── manuscript.tex (LaTeX draft) 
+│   └── figures (Fourier plots, residue distributions) 
+└── /validation 
+    ├── claude_peer_review.md (Ethics/narrative checks) 
+    └── pi_validation.log (Statistical replication logs) 
