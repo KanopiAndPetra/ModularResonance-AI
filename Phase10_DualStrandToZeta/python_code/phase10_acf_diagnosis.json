@@ -1,0 +1,15 @@
+{
+  "task": "Phase 10 ACF diagnosis - what drives g(1) = -0.55?",
+  "date": "2026-08-22",
+  "author": "Petra",
+  "n_residuals": 248,
+  "n_nonzero": 20,
+  "pct_zero": 91.93548387096774,
+  "empirical_g1": -0.5484449502297641,
+  "synthetic_alternation_g1": -1.0,
+  "nonzero_subset_g1": -0.9998294465143556,
+  "pct_transitions": 100.0,
+  "n_nonzero_sign_alternations": 19,
+  "interpretation": "g(1) = -0.5484 is dominated by TEN perfectly alternating +/-0.19 doublets at adjacent nonzero positions. The 20 nonzero residuals form 10 pairs at indices (11,12), (31,32), (59,60), (129,130), (154,155), (159,160), (161,162), (193,194), (235,236), (238,239) - each pair is a near-mirror with same magnitude, opposite sign. Nonzero-only ACF = -0.9998 (essentially -1). 19/19 nonzero sign transitions alternate (100%). The zero structure is inert; the anticorrelation lives in the nonzero stream itself.",
+  "supersedes": "The 2026-08-21 note framed the g(1) = -0.55 finding as a '92%-zero construction artifact'. That framing is wrong: the empirical ACF is a weighted average of (zero ACF, near-zero) and (doublet ACF, near -1), and the doublets dominate. The 08-21 note's mechanism (3) should be REPLACED with: 'g(1) is dominated by ten +/-0.19 sign-mirror doublets at the nonzero positions'."
+}

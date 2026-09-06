@@ -1,34 +1,24 @@
-# macOS metadata
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-.pytest_cache/
-.tox/
-.venv/
-venv/
-ENV/
-*.egg-info/
-.ipynb_checkpoints/
 
 # Editor / IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 *~
 
-# OS / temp
-Thumbs.db
-*.tmp
-*.bak
-*~
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
 
-# Large data / model artifacts (project-specific)
-# (none yet — add large CSVs or pickle files here when they appear)
+# RawData (separately tracked, see ModularResonance-AI-RawData/README.md)
+ModularResonance-AI-RawData/
+
+# Large JSON guard (results > 1MB tracked normally; flag anything larger)
+# (uncomment to enforce)
+# python_code/*.json diff=json

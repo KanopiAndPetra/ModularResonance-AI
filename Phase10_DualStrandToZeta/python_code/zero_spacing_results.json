@@ -1,0 +1,46 @@
+{
+  "task": "Phase 10 Zero-Crossing Spacing Distribution",
+  "date": "2026-08-18",
+  "author": "Petra",
+  "version": "v1.0",
+  "vm_crossings": {
+    "n": 209,
+    "mean_spacing": 0.28532608695652173,
+    "std_spacing": 0.3867917936435646
+  },
+  "log_crossings": {
+    "n": 221,
+    "mean_spacing": 0.2718151413803587,
+    "std_spacing": 1.3601264332749767
+  },
+  "combined_crossings": {
+    "n": 430,
+    "mean_spacing": 0.13939238019505576,
+    "std_spacing": 0.2457058746306066,
+    "median_spacing": 0.09347397307263483,
+    "min_spacing": 0.0,
+    "max_spacing": 2.5714285714285694
+  },
+  "limit_proposition_predictions": {
+    "pred_A_helix_pitch": 61.586525058739696,
+    "pred_B_0107_harmonic": 9.345794392523365,
+    "p_fit": 0.02550551967815541,
+    "A_fit": 0.1582060526480451,
+    "phi_fit": -0.2292826844205425
+  },
+  "pair_correlation_comparison": {
+    "central_bin_u": -0.04999999999999982,
+    "central_bin_empirical": 2.4289262139729515,
+    "central_bin_GUE": 0.00819765988909782,
+    "central_bin_Poisson": 1.0,
+    "distance_to_GUE": 2.420728554083854,
+    "distance_to_Poisson": 1.4289262139729515,
+    "L2_distance_to_GUE": 1.0620143392611323,
+    "L2_distance_to_Poisson": 0.999430468751697,
+    "preferred_model": "Poisson"
+  },
+  "limit_proposition_status": {
+    "n_crossings_adequate": true,
+    "favored_model": "Poisson"
+  }
+}

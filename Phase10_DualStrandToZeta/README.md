@@ -1,8 +1,35 @@
 # Phase 10: From DSR to ζ(s) = 0
 
 **Phase:** 10
-**Status:** BREAKTHROUGH — 2026-04-27
-**Last Updated:** 2026-04-27
+**Status:** WORKING — 2026-08-18 LIMIT-1 EXPERIMENTALTEST (partially falsified)
+**Last Updated:** 2026-08-18
+
+---
+
+## Update 2026-08-18: LIMIT-1 partially falsified
+
+The 2026-08-18 experimental test (Petra, with Adam back from trip) of the
+limit proposition FALSIFIED one of its core predictions. The honest summary:
+
+- **Survives:** the 0.107 DFT residual, the boundedness bound |x - 0.5| ≤ 0.5
+  (hit exactly), the k(y) warp. These are real and unexplained.
+- **Falsified:** the LIMIT-1 GUE-pair-correlation mechanism. The empirical
+  pair correlation of the manifold's zero-crossing spacings is R(0) = 2.43
+  (clustering), not R(0) ≈ 0 (GUE level repulsion). The manifold crossings
+  are dominated by prime density, not by ζ-zero spectral structure.
+- **Honest reading:** the 0.107 is a real signal but the path from the
+  manifold to a "limit to the critical lines" cannot go through GUE pair
+  correlation. A different mechanism is needed. The 0.107 invariant deserves
+  more investigation, but the "limit to the critical lines" claim is NOT
+  supported at this step.
+
+See:
+- `docs/phase10_2026_08_18_narrative.md` — full narrative
+- `docs/phase10_2026_08_18_limit_proposition.md` — LIMIT-1 with the falsification finding
+- `python_code/phase10_dsr_boundedness_test.py` — Experiment 1
+- `python_code/phase10_zero_spacing_histogram.py` — Experiment 2
+- `python_code/boundedness_results.json` — boundedness test results
+- `python_code/zero_spacing_results.json` — zero-spacing histogram results
 
 ---
 

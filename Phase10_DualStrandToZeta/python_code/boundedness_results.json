@@ -1,0 +1,94 @@
+{
+  "task": "Phase 10 DSR Boundedness Test",
+  "date": "2026-08-18",
+  "author": "Petra",
+  "version": "v1.0",
+  "data_path": "/Users/oppie1.kanopi/Desktop/ModularResonance-AI/Phase9_DualStrandResonance/DSR_Phase9/trajectory_data/traj_vmPhase9.csv",
+  "n_points": 503,
+  "empirical_boundedness": {
+    "n": 503,
+    "min_dev": 0.0016722408026755842,
+    "max_dev": 0.5,
+    "median_dev": 0.17224080267558528,
+    "p95_dev": 0.2090301003344482,
+    "p99_dev": 0.2090301003344482,
+    "structural_bound": 0.5,
+    "structural_bound_hits": true,
+    "y_range": [
+      0.0,
+      59.39799331103679
+    ]
+  },
+  "manifold_fit": {
+    "k": 0.02550551967815541,
+    "A": 0.1582060526480451,
+    "phi": -0.2292826844205425,
+    "rms": 0.05863929893699569
+  },
+  "residual_stats": {
+    "std": 0.058639298830905434,
+    "max_abs": 0.3459342509571288,
+    "structural_residual_bound": 0.3417939473519549,
+    "within_structural_bound": true
+  },
+  "dft_lowfreq": {
+    "n": 503,
+    "mean_dy": 0.1183226958387187,
+    "y_range": 59.39799331103679,
+    "top_lowfreq_peaks": [
+      [
+        0.36964653520319524,
+        3.9107755590094406
+      ],
+      [
+        0.15121903712857987,
+        2.4966938764538185
+      ],
+      [
+        0.268833843784142,
+        2.4335467047934256
+      ],
+      [
+        0.3360423047301775,
+        2.33398482089454
+      ],
+      [
+        0.48726134185875736,
+        2.3065650487180203
+      ],
+      [
+        0.2016253828381065,
+        2.2672910633242522
+      ],
+      [
+        0.3864486504397041,
+        2.1594334948146336
+      ],
+      [
+        0.10081269141905325,
+        2.1217533530352255
+      ],
+      [
+        0.05040634570952662,
+        1.9178342169270335
+      ],
+      [
+        0.23522961331112424,
+        1.8898661729935493
+      ]
+    ],
+    "freq_at_0107_target": 0.10081269141905325,
+    "mag_at_0107_target": 2.1217533530352255,
+    "max_mag_lowfreq": 3.9107755590094406,
+    "dominance_ratio_0107_vs_maxLowFreq": 0.5425403020501243,
+    "y_max": 59.39799331103679,
+    "T_max": 6.254905189097244e+25,
+    "expected_zeta_mean_spacing": 0.10578110398911578,
+    "match_pct": 5.782531384062384
+  },
+  "limit_proposition_status": {
+    "F1_0107_invariant_reproducible": true,
+    "F3a_boundedness_analytic": true,
+    "F3b_residual_bounded": true
+  }
+}
